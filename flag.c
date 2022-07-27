@@ -3,6 +3,7 @@
 #include<math.h>>
 #include<GL/freeglut.h>
 
+//remember to use float /double
 GLfloat ya=50,xa=10;
 int yFlag=1;
 int xFlag=1;
@@ -33,6 +34,7 @@ void Animate(){
 }
 
 void draw(){
+    //remember to give glClear here
 	glClear(GL_COLOR_BUFFER_BIT);
 	if(drawFlag==1){
 	    GLfloat x[4],y1[4],y2[4],y3[4],y4[4];
