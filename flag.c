@@ -64,7 +64,6 @@ void draw(){
 		    glVertex2d(xt[i],yt1[i]);
 		    glVertex2d(xt[i],yt2[i]);
 	    }
-	    glVertex2d(xt[i],yt2[0]);
 	    glEnd();
 
 	    glColor3f(1,1,1);
